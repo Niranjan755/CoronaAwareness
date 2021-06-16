@@ -1,0 +1,73 @@
+html {
+    background-color: wheat;
+
+}
+.main {
+    background-color: gray;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.img1 img, .img2 img, .img3 img , .img4 img , .img5 img, .img6 img , .img7 img , .img8 img, .img9 img, .img10 img{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.img1 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img2 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img3 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img4 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img5 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img6 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img7 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img8 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+.img9 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+
+.img10 img:hover {
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+}
+

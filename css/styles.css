@@ -1,0 +1,240 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.heading{
+    background-image: url("https://easyfit.in/Uploads/Blogs/Blog_2432020163754.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 730px;  
+    
+} 
+.one li{
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+    padding: 0%;
+    font-size: 20px;
+}
+ul li{
+    display: flex;
+    padding-left: 20px;
+    
+    
+}
+
+ul{
+    display: flex;
+}
+
+.one h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: larger;
+    font-size: 70px;
+    margin: auto;
+    text-align: left;
+    padding: 150px;
+}
+.last h1{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+ .laster , .lastest  , .fastest {
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    display: inline-block;
+}
+.laster img, .lastest img, .fastest img{
+    margin: 50px;
+}
+
+.images{
+    padding: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.coin h2{
+    padding: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+.coin p{
+    padding: 20px;
+}
+.para {
+    position: relative;
+    top: 150px;
+    left: 150px;
+   
+    
+}
+.para h1 {
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+
+.map{
+   
+    padding: 20px;
+    margin: 20px;
+}
+.world{
+    display: flex;
+    background-color: #F07F74;
+}
+
+
+ .span{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    bottom: 100%;
+    padding: 10px;
+}
+.head h2{
+    text-align: center;
+    padding: 10px;
+}
+.head span{
+    display: flex;
+     line-height: 25px;
+     font-size: 2.2rem;
+     color: #970566;
+     letter-spacing: 1px;
+     font-weight: 300;
+     margin: 0px;
+     bottom: 100%;
+     text-align: center;
+}
+.head h2{
+    line-height: 55px;
+    font-size: 2.2rem;
+    color:#05070c ;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+    bottom: 100%;
+}
+.box-container{
+    bottom: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+    
+}
+.box{
+    bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 30px rgba(48, 4, 207, 0.15);
+    border-radius: 10px;
+    background-color: rgb(245, 239, 242);
+    margin: 20px;
+    flex-grow: 1;
+}
+.box img{
+    height: 150px;
+    margin: 10px;
+}
+.box strong{
+    font-size: 1.5rem;
+    color: #060607;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.box p{
+    font-size: 1rem;
+    color: #262829;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
+
+
+.tail {
+   margin:150px 0 0 200px ;
+}
+
+.footer h2{
+    padding: 20px;
+    background-color: black;
+}
+
+.down, .tail{
+    height: 500px;
+}
+.down {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    margin: 100px;
+    float: right;
+    color: black;
+    
+}
+.down p{
+    padding: 20px;
+    font-size: larger;
+    text-align: left;
+    font-size: 25px;
+
+}
+
+.down table{
+    padding: 10px;
+    font-size: larger;
+}
+.tail p{
+    text-align: left;
+    margin: 15px;
+    font-weight: 800;
+    font-size: larger;
+}
+
+
+.tail img{
+  padding: 15px;
+}
+.button button{
+    margin-left: 45%;
+}
+.A{
+    
+    display: flex;
+    flex-direction: row;
+  }
+  
