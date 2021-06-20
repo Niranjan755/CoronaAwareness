@@ -1,12 +1,10 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    
-    list-style-type: none;
-    
+    padding: 0;
+    margin: 0;
 }
 a {
     text-decoration: none;
+    list-style-type: none;
     padding: 10px;
     color: white;
 }
@@ -14,9 +12,10 @@ a {
 .heading{
     background-image: url("https://easyfit.in/Uploads/Blogs/Blog_2432020163754.jpg");
     background-repeat:no-repeat ;
-    background-size: cover;
+    background-size: 100%;
+    overflow-x: hidden;
     width: 100%;
-    height: 730px;  
+    height: 800px;
     
 } 
 .one li{
@@ -29,13 +28,12 @@ a {
 ul li{
     display: flex;
     padding-left: 20px;
-    
-    
 }
 
 ul{
     display: flex;
 }
+
 
 .one h1{
     color: white;
@@ -46,6 +44,62 @@ ul{
     text-align: left;
     padding: 150px;
 }
+.home h1{
+    background-color: #05070c;
+    padding: 15px;
+}
+ .hover h2{ 
+    color: black;
+    font-size: 2.7rem;
+    left: 10px;
+    display: flex;
+    line-height: 15px;
+     text-align: center;
+     align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+     margin: 0px;
+     bottom: -15pt;        
+     top: 200;
+     position: relative;
+     padding: 10px;
+        }
+
+    
+      .hover p{
+             color: rgb(46, 47, 48);
+              position: relative;
+               font-size: 20px; 
+               top: 25px;
+               padding: 10px;
+         }
+
+         .hover span{
+            display: flex;
+            line-height: 25px;
+            font-weight: 500;
+             color: #2b07ad;
+             position: relative;
+             text-align: center;
+             align-items: center;
+             justify-content: center;
+             letter-spacing: 1px;
+              font-size: 3rem;
+              margin: 0px;
+               bottom: 100%;
+               padding: 20px;
+            }
+
+       .hover img{
+            height: 350px; 
+            width: 1000px;
+             margin: 20px;
+             bottom: 100px;
+             text-align: center;
+             align-items: center;
+             justify-content: center;
+            }
+            
 .last h1{
     background-color: rgb(0, 0, 0);
     padding: 15px;
@@ -58,12 +112,13 @@ ul{
     padding: 20px;
     margin: 50px;
     display: inline-block;
+    
 }
 .laster img, .lastest img, .fastest img{
     margin: 50px;
 }
 
-.images{
+.images {
     padding: 20px;
     display: grid;
     grid-auto-flow: column;
@@ -77,6 +132,7 @@ ul{
 }
 .coin p{
     padding: 20px;
+    font-size: larger;
 }
 .para {
     position: relative;
@@ -100,8 +156,8 @@ ul{
 .world{
     display: flex;
     background-color: #F07F74;
+    height: 570px;
 }
-
 
  .span{
     margin-bottom: 60px;
@@ -182,7 +238,54 @@ ul{
     text-overflow: ellipsis;
     max-width: 500px;
 }
+.hlp h1{
+    background-color: #05070c;
+    padding: 15px;
 
+}
+.hlp h2{
+    font-size: 30px;
+    padding: 10px;
+    color: #970566;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hlp img{
+    padding: 10px;
+}
+.hlp h3{
+    font-size: 25px;
+    padding: 10px;
+    color: #970566;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .hlp p{
+     font-size: larger;
+     padding: 10px;
+ }
+ .table {
+     border: 2px solid black;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 20px;
+     width: 400px;
+ }
+ .table  th{
+     font-size: 25px;
+     font-weight: 300;
+     padding: 10px;
+ }
+ .table  td{
+     font-size: large;
+     padding: 5px;
+     margin: 30px;
+ }
+ .link a{
+     color: #0a3194;
+     text-decoration: underline;
+ }
+ .link{
+     padding: 10px;
+ }
 
 .tail {
    margin:150px 0 0 200px ;
@@ -233,9 +336,228 @@ ul{
 .button button{
     margin-left: 45%;
 }
-.A{
+.E{
+    background-color: #05070c;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
     
-    display: flex;
-    flex-direction: row;
   }
-  
+ .A{
+     display: flex;
+     flex-direction: row;
+     float: left;
+     padding: 5px;
+     margin: auto;
+ } 
+ .A img{
+     background-color: white;
+ }
+ .d{
+     display: grid;
+     float: right;
+     padding: 25px;
+     margin: 5px;
+     color: white;
+
+ }
+ .a , .b , .c{
+     padding: 20px;
+     color: white;
+ }
+ @media(max-width:1395px){
+     .laster , .lastest, .fastest {
+         display: grid;
+         grid-template-rows: auto;
+         padding: 10px;
+         
+     }
+     
+     .para h1{
+         padding: 10px;
+         margin: 10px;
+     }
+     .para{
+         position: relative;
+         top: 150px;
+         left: 80px;
+     }
+ }
+ @media(max-width:1290px){
+     .para h1{
+         padding: 5px;
+         margin: 5px;
+     }
+     .para{
+         position: relative;
+         top: 150px;
+         left: 50px;
+     }
+ }
+ @media(max-width:1250px){
+     .world{
+         display: grid;
+         grid-template-rows: 20% 80%;
+     }
+     .map{
+         margin: auto;
+     }
+     .para{
+        margin: auto;
+     }
+ }
+ @media(max-width:1130px){
+      .tail{
+         
+        margin: 150px 0 0 100px ;
+    
+         }
+        }
+  @media(max-width:1038px){
+      .hover img{
+          width: 800px;
+      }
+  } 
+  @media(max-width:975px){
+      .images{
+          display: grid;
+          grid-template-columns: auto;
+          grid-gap:10px;
+      }
+  }     
+@media(max-width:970px){
+    .tail{
+        margin: auto;
+    }
+    .footer{
+         display: grid;
+         grid-template-columns: auto;
+         height: 850px;
+    }
+    .down{
+        margin: 100px;
+        margin-right: 20%;
+    }
+}
+ @media(max-width:950px){
+     .images img{
+         width: 200px ;
+         height: 100px;
+     }
+ }
+ @media(max-width:860px){
+     .one h1{
+    font-weight: large;
+    font-size: 50px;
+    margin: 20px;
+     }
+     .map img{
+        width: 600px;
+        margin: auto;
+     }
+ }
+@media(max-width:835px){
+    .hover img{
+        width: 600px;
+    }
+}
+@media(max-width:750px){
+    .one h1{
+        font-weight: medium;
+    font-size: 40px;
+    margin: 10px;
+    }
+}
+@media(max-width:665px){
+    .down{
+        padding: 15px;
+        margin: 50px ;
+        width: 350px;
+    }
+    .down p{
+        padding: 10px;
+    }
+}
+@media(max-width:650px){
+    .hover img{
+        width: 500px;
+        height: 300px;
+    }
+    .images img{
+        width: 150px ;
+        height: 100px;
+        padding: 10px;
+    }
+    .map img{
+        width: 450px;
+        height: 300px ;
+        margin: auto;
+     }
+     .para h1{
+         padding: 5px;
+         margin: 5px;
+     }
+}
+@media(max-width:620px){
+    .one li{
+        font-size: 10px;
+    }
+}
+@media(max-width:560px){
+
+}
+@media(max-width:525px){
+    .tail{
+        margin: auto;
+    }
+    .down{
+        padding: 8px;
+        margin: 25px;
+        width: 350px;
+    }
+    .down p{
+        padding: 5px;
+    }
+    .footer{
+        height: 700px;
+    }
+    
+}
+@media(max-width:450px){
+    
+    .down{
+        padding: 5px;
+        margin: 15px;
+        width: 270px;
+        height: 250px;
+    }
+    .down p{
+        padding: 3px;
+        font-size: 20px;
+    }
+    .down table{
+        font-size: 10px ;
+    }
+    .footer{
+        height: 570px;
+    }
+}
+@media(max-width:300px)  {
+   *{
+    width: 100%;
+    
+   }
+    
+}
+@media(max-width:500px) {
+    .heading {
+        
+        background-image: url("https://images.unsplash.com/photo-1584467735815-f778f274e296?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y292aWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+        
+        background-repeat: no-repeat; 
+        background-size: 100%;
+        height: auto;
+    
+    }
+    
+}
