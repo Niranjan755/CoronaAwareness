@@ -1,7 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+  
 }
+.main{
+    overflow:hidden;
+}
+
 a {
     text-decoration: none;
     list-style-type: none;
@@ -10,12 +15,12 @@ a {
 }
 
 .heading{
-    background-image: url("https://easyfit.in/Uploads/Blogs/Blog_2432020163754.jpg");
+    background-image: url("/images/corona\ wallpaper.jpeg");
     background-repeat:no-repeat ;
-    background-size: 100%;
-    overflow-x: hidden;
+    background-size: cover;
+    
     width: 100%;
-    height: 800px;
+    height: 706px;
     
 } 
 .one li{
@@ -213,7 +218,7 @@ ul{
     text-align: center;
     box-shadow: 5px 5px 30px rgba(48, 4, 207, 0.15);
     border-radius: 10px;
-    background-color: rgb(245, 239, 242);
+    background-color: rgb(255, 240, 240);
     margin: 20px;
     flex-grow: 1;
 }
@@ -326,7 +331,7 @@ ul{
     text-align: left;
     margin: 15px;
     font-weight: 800;
-    font-size: larger;
+    font-size: 25px;
 }
 
 
@@ -366,12 +371,17 @@ ul{
      color: white;
  }
  @media(max-width:1395px){
-     .laster , .lastest, .fastest {
-         display: grid;
-         grid-template-rows: auto;
-         padding: 10px;
-         
+     .main{
+         overflow: hidden;
      }
+    
+    .latest {
+        display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+      }
      
      .para h1{
          padding: 10px;
@@ -382,8 +392,12 @@ ul{
          top: 150px;
          left: 80px;
      }
+     
  }
  @media(max-width:1290px){
+    .main{
+        overflow: hidden;
+    }
      .para h1{
          padding: 5px;
          margin: 5px;
@@ -393,8 +407,12 @@ ul{
          top: 150px;
          left: 50px;
      }
+     
  }
- @media(max-width:1250px){
+ @media(max-width:1260px){
+    .main{
+        overflow: hidden;
+    }
      .world{
          display: grid;
          grid-template-rows: 20% 80%;
@@ -405,29 +423,58 @@ ul{
      .para{
         margin: auto;
      }
+
+      .laster , .lastest, .fastest {
+        display: grid;
+        grid-template-rows: auto;
+        padding: 20px;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        bottom: auto;
+        
+        
+    }
+    .latest{
+        display: grid;
+        grid-gap: 20px;
+    }
+    .coin h2{
+        position: relative;
+        top: 20px;
+    }
+      .tail p{
+        text-align: left;
+        margin: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
  }
  @media(max-width:1130px){
+    .main{
+        overflow: hidden;
+    }
       .tail{
          
         margin: 150px 0 0 100px ;
     
          }
+         
+         
         }
-  @media(max-width:1038px){
+  @media(max-width:1040px){
+    .main{
+        overflow: hidden;
+    }
       .hover img{
           width: 800px;
       }
-  } 
-  @media(max-width:975px){
-      .images{
-          display: grid;
-          grid-template-columns: auto;
-          grid-gap:10px;
-      }
-  }     
-@media(max-width:970px){
+     
     .tail{
         margin: auto;
+        position: relative;
+        top: 80px;
     }
     .footer{
          display: grid;
@@ -435,50 +482,137 @@ ul{
          height: 850px;
     }
     .down{
-        margin: 100px;
-        margin-right: 20%;
+        margin: auto;
+        position: relative;
+        top: 40px;
+
     }
-}
+    .table{
+        margin: auto;
+        width: 430px;
+    }
+      
+  } 
+  @media(max-width:975px){
+    .main{
+        overflow: hidden;
+    }
+      .images{
+          display: grid;
+          grid-template-columns: auto;
+          grid-gap:10px;
+      }
+     .E{
+         height: 200px ;
+         display: grid;
+         grid-template-columns: auto;
+     } 
+     .d{
+       display: grid;
+       justify-content: center;
+       align-items: center;
+        
+        padding: 10px;
+        margin: 5px;
+       
+   
+    }
+      
+  }     
+
  @media(max-width:950px){
+    .main{
+        overflow: hidden;
+    }
      .images img{
          width: 200px ;
          height: 100px;
      }
+     
  }
  @media(max-width:860px){
+    .main{
+        overflow: hidden;
+    }
      .one h1{
     font-weight: large;
     font-size: 50px;
     margin: 20px;
      }
      .map img{
-        width: 600px;
+        width: 100% ;
         margin: auto;
      }
+     
  }
 @media(max-width:835px){
+    .main{
+        overflow: hidden;
+    }
     .hover img{
         width: 600px;
     }
+    .table{
+        margin: auto;
+    }
+    
+    
+    
 }
 @media(max-width:750px){
+    .main{
+        overflow: hidden;
+    }
     .one h1{
         font-weight: medium;
-    font-size: 40px;
+    font-size: 50px;
     margin: 10px;
+    padding: 100px;
+    position: relative;
+    top: 70px;
+    left: 10px;
     }
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+
 }
 @media(max-width:665px){
+    .main{
+        overflow: hidden;
+    }
     .down{
         padding: 15px;
-        margin: 50px ;
+        margin: auto ;
         width: 350px;
+        position: relative;
+        top: 30px;
+        bottom: auto;
     }
     .down p{
         padding: 10px;
     }
+    .tail{
+        position: relative;
+        top: 50px;
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 @media(max-width:650px){
+    .main{
+        overflow: hidden;
+    }
     .hover img{
         width: 500px;
         height: 300px;
@@ -497,67 +631,278 @@ ul{
          padding: 5px;
          margin: 5px;
      }
-}
-@media(max-width:620px){
+     .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .one li{
         font-size: 10px;
     }
+     
+}
+@media(max-width:620px){
+    .main{
+        overflow: hidden;
+    }
+    
+    .one h1{
+        font-weight: medium;
+        font-size: 50px;
+        margin: 5px;
+        padding: 150px;
+        position: relative;
+        left: 10px;
+        top: 50px;
+    }
+    
+    
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
 @media(max-width:560px){
-
-}
-@media(max-width:525px){
-    .tail{
-        margin: auto;
-    }
-    .down{
-        padding: 8px;
-        margin: 25px;
-        width: 350px;
-    }
-    .down p{
-        padding: 5px;
-    }
-    .footer{
-        height: 700px;
+    .main{
+        overflow: hidden;
     }
     
-}
-@media(max-width:450px){
+    .heading{
+        background-image: url("https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/Coronavirus-illustration-800x1200.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     
-    .down{
-        padding: 5px;
-        margin: 15px;
-        width: 270px;
+        .d{
+            display: grid;
+            float: right;
+            padding: 10px;
+            margin: 2px;
+            color: white;
+       
+        }
+      .hover p{
+          font-size: 15px;
+      }  
+      .images {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .one h1{
+        font-weight: medium;
+        font-size: 45px;
+        margin: 5px;
+        padding: 100px;
+        position: relative;
+        left: 5px;
+        top: 70px;
+    }
+      
+    
+    
+}
+@media(max-width:525px) {
+    .main{
+        overflow: hidden;
+    }
+    .hover img{
+        width: 400px;
         height: 250px;
     }
-    .down p{
-        padding: 3px;
-        font-size: 20px;
+    .hover span{
+        line-height: 20px;
+        font-weight: 400;
+        font-size: larger;
     }
-    .down table{
-        font-size: 10px ;
+    .para{
+        position: relative;
+       left: 20px;
+        top: 80px;
     }
-    .footer{
-        height: 570px;
+    .one h1{
+        font-weight: medium;
+        font-size: 40px;
+        margin: 5px;
+        padding: 90px;
+        position: relative;
+        left: 5px;
+        top: 100px;
+    }
+    .tail {
+      position: relative;
+      top: 100px;
+    }
+
+
+}
+@media(max-width:520px){
+    .main{
+      overflow: hidden;
+    }
+    .hlp img{
+        width: 450px;
     }
 }
-@media(max-width:300px)  {
-   *{
-    width: 100%;
-    
+@media(max-width:480px){
+    .main{
+        overflow: hidden;
+      }
+      .map img{
+        width: 100% ;
+        margin: auto;
+     }
+     .table{
+        margin: auto;
+        width: 350px;
+    }
+    .E{
+        height: 150px ;
+        display: grid;
+        grid-template-columns: auto;
+    } 
+    .d{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
+       padding: 5px;
+       margin: 5px;
+      
+  
    }
-    
 }
-@media(max-width:500px) {
-    .heading {
+@media(max-width:470px){
+    .main{
+        overflow: hidden;
+      }
+      .hlp img{
+        width: 400px;
+        height: 300px;
+    }
+    ul img{
+        width: 70px;
+    }
+    .a,.b,.c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .E{
+        height: 180px;
+    }
+}
+@media(max-width:420px){
+    .main{
+        overflow: hidden;
+      }
+    .hover img{
+        width: 350px;
+        height: 200px;
+    }
+    .hlp img{
+        width: 350px;
+        height: 250px;
+    }
+    .laster , .lastest  , .fastest {
+        width: 300px;
+        padding: 20px;
+        margin: 30px;
         
-        background-image: url("https://images.unsplash.com/photo-1584467735815-f778f274e296?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y292aWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    }
+    .laster img, .lastest img, .fastest img{
+        margin: 40px;
+    }
+}
+
+@media(max-width:395px){
+    .main{
+        overflow: hidden;
+      }
+     
+    .table{
+        margin: auto;
+        width: 300px;
+        padding: 5px;
+    }
+    .table  th{
+        font-size: 20px;
+        font-weight: 200;
+        padding: 10px;
+    }
+    .down {
+      
+        width: 250px;
+        height: 270px;
+        padding: 30px;
+        margin: auto;
+       
         
-        background-repeat: no-repeat; 
-        background-size: 100%;
-        height: auto;
+    }
+    
+    .down p{
+        padding: 10px;
+        font-size: large;
+        text-align: left;
+        font-size: 15px;
     
     }
     
+    .down table{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+}
+@media(max-width:375px){
+    .main{
+        overflow: hidden;
+      }
+    .hover img{
+        width: 300px;
+        height: 150px;
+    }
+    .map img{
+        height: 300px;
+    }
+    
+    .one h1{
+        font-weight: medium;
+        font-size: 30px;
+        margin: 5px;
+        padding: 50px;
+        position: relative;
+        left: 0px;
+        top: 200px;
+    }
+}
+@media(max-width:370px){
+    .main{
+        overflow: hidden;
+      }
+}
+@media(max-width:365px){
+    .main{
+        overflow: hidden;
+      }
+      .hlp img{
+        width: 300px;
+        height: 200px;
+      }
+}
+@media(max-width:360px){
+    .main{
+        overflow: hidden;
+      }
+}
+@media(max-width:280px){
+    .main{
+        overflow: hidden;
+      }
 }
