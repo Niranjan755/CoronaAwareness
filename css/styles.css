@@ -15,7 +15,7 @@ a {
 }
 
 .heading{
-    background-image: url("/images/corona\ wallpaper.jpeg");
+    background-image: url("/images/corona wallpaper.jpeg");
     background-repeat:no-repeat ;
     background-size: cover;
     
@@ -901,8 +901,98 @@ ul{
         overflow: hidden;
       }
 }
-@media(max-width:280px){
+@media(max-width:320px){
     .main{
         overflow: hidden;
       }
+      ul img{
+        width: 60px;
+    }
+    .one li{
+        font-size: 8px;
+    }
+    .hover img{
+        width:80% ;
+        margin: 10px;
+        padding: 20px;
+    }
+    .laster , .lastest  , .fastest {
+        width: 250px;
+        padding: 10px;
+        margin: 30px;
+        height: 550px;
+        
+    }
+    .laster img, .lastest img, .fastest img{
+        margin: 30px;
+    }
+    .map >img{
+        height: 200px;
+        position: relative;
+        top: 50px;
+
+    }
+    .para>h1{
+        font-size: 20px;
+    }
+    .world{
+        height: 500px;
+    }
+    .table{
+        margin: auto;
+        width: 250px;
+        padding: 2px;
+    }
+    
+    .table  td{
+        font-size: 10px;
+        padding: 2px;
+        margin: 20px;
+    }
+    
+    .table th{
+        font-size: 15px;
+    }
+    .down {
+      
+        width: 200px;
+        height: 250px;
+        padding: 20px;
+       margin: 20px;
+        
+    }
+    .tail p{
+        text-align: left;
+        margin: 20px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .head span{
+        font-size: 1.7rem;
+    }
+    .head h2{
+        font-size: 25px;
+    }
+    .d li{
+        font-size: 10px;
+    }
+    .A p{
+        font-size: 10px; 
+    }
+     .hlp h2{
+         font-size: 25px;
+     }
+     .box{
+        bottom: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+       
+        margin: 10px;
+        flex-grow: 1;
+    }
 }
